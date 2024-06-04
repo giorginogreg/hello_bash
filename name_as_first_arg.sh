@@ -5,4 +5,7 @@
 
 #This script takes a name as a command-line argument and prints a personalized greeting.
 
-echo "Hello, $1!"
+name=$1
+echo -n "Hello, " #If one wants to exclude the trailing newline character, the -n option can be passed
+echo -n ${name:=World}
+echo -e "!\n"

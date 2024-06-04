@@ -1,0 +1,5 @@
+For echo_loop.sh script
+
+Test
+Wow
+Bell

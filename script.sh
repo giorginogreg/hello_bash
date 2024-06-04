@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "Today is " `date`
+echo "Today is" `date`
 
-echo -e "\nenter the path to directory"
+echo -e "enter the path to directory"
 read the_path
 
-echo -e "\nyour path has the following files and folders: "
+echo -e "Your path has the following files and folders: "
 ls $the_path
